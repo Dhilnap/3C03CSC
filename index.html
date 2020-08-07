@@ -1,19 +1,38 @@
 <!DOCTYPE html/>
 <html>
  <head>
-  <tittle>Registration form</tittle>
+  <title>Registration form</title>
  </head>
- <body style="margin:auto">
+ <body>
   <h1 style="color:red">REGISTRATION FORM</h1>
   <form>
   Name: <input type="text"/><br /><br />
   Gender:
-  Male: <input type="radio" value="male" name="gender"/>
-  Female: <input type="radio" value="Female" name="gender"/>
-  Others: <input type="radio" value="others" name="gender"/><br /><br />
+   Male: <input type="radio" value="male" name="gender"/>
+   Female: <input type="radio" value="Female" name="gender"/>
+   Others: <input type="radio" value="others" name="gender"/><br /><br />
   DOB: <input type="date" min="2000.01.01"/><br /><br />
   Father's Name: <input type="text"/><br /><br />
   email address: <input type="email"/><br /><br />
+  DISTRICT :
+          <select>
+              <option>Kasaragod</option>
+              <option>Kannur</option>
+              <option>Kozhikode</option>
+              <option>Malappuram</option>
+              <option>Wayanad</option>
+              <option>Eranakulam</option>
+              <option>Thrissur</option>
+              <option>Palakkad</option>
+              <option>Kottayam</option>
+              <option>Pathanamthitta</option>
+              <option>Alappuzha</option>
+              <option>Idukki</option>
+              <option>Kollam</option>
+              <option>Thiruvananthapuram</option>
+          </select><br /><br />
+   CONTACT NUMBER :
+       <input type="text" "pattern="\d{10}" title="contact no should contain 10 digits"required/><br /><br />
   <input type="submit" value="Register"/>
   </form>
  </body>
