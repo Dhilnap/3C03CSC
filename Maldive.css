@@ -1,0 +1,18 @@
+body{
+  width:60%;
+  margin:auto
+  }
+h1,h2{
+  height:10px;
+  }
+#mainmenu{
+  text-align: right;
+  background-color:red;
+  margin-top:20px;
+  padding:10px;
+  color:white;
+  front-height:bold;
+  }
+#mainimage{
+  width=100%;
+  }
