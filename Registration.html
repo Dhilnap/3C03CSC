@@ -6,14 +6,22 @@
  <body>
   <h1 style="color:red">REGISTRATION FORM</h1>
   <form>
-  Name: <input type="text"/><br /><br />
+  <input type="text" placeholder="Your Name"/><br /><br />
   Gender:
    Male: <input type="radio" value="male" name="gender"/>
-   Female: <input type="radio" value="Female" name="gender"/>
-   Others: <input type="radio" value="others" name="gender"/><br /><br />
-  DOB: <input type="date" min="2000.01.01"/><br /><br />
-  Father's Name: <input type="text"/><br /><br />
-  email address: <input type="email"/><br /><br />
+   value="others" name="gender"/><br /><br />
+  <input type="email" placeholder="your email"/><br /><br />
+  DOB: <input type="date"/><br /><br />
+  Password:<input type="password" placeholder="your password">
+  Address: <input type="text"/><br /><br />
+  Programme:
+   <input type="text" list="programmes" />
+   <datalist id="programmes" />
+   <option value="Computer Science" />
+   <option value="Physics" />
+   <option value="Chemistry" />
+   <option value="Mathematics" />
+   <option value="Statistics" />
   University :
           <select>
               <option>Kannur University</option>
@@ -21,8 +29,7 @@
               <option>MG University</option>
               <option>Kerala University</option>
           </select><br /><br />
-   CONTACT NUMBER :
-       <input type="text" "pattern="\d{10}" title="contact no should contain 10 digits"required/><br /><br />
+  Language Known:
   <input type="submit" value="Register"/>
   </form>
  </body>
