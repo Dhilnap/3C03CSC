@@ -1,43 +1,43 @@
-<!DOCTYPE html/>
+<!DOCTYPE html>
 <html>
- <head>
-  <title>Registration form</title>
- </head>
- <center>
- <body style="background-color:#99334d">
-  <h1 style="color:pink">REGISTRATION FORM</h1>
-  <form action="form.html">
-  <input type="text" placeholder="Your Name" required/><br /><br />
-  Gender:
-   Male: <input type="radio" value="male" name="gender"/>
-   Female: <input type="radio" value="Female" name="gender"/>
-   Others: <input type="radio" value="others" name="gender"/><br /><br />
-  <textarea row="10" cold="50" placeholder="your Address"/>
-  <input type="email" placeholder="your email"/><br /><br />
-  DOB: <input type="date"/><br /><br />
-  Password:<input type="password" placeholder="your password"><br /><be />
-  Programme:
-   <input type="text" list="programmes" />
-   <datalist id="programmes" />
-   <option value="Computer Science" />
-   <option value="Physics" />
-   <option value="Chemistry" />
-   <option value="Mathematics" />
-   <option value="Statistics" />
-   </datalist><br /><br />
-   University :
-          <select>
-              <option>Kannur University</option>
-              <option>Calicut University</option>
-              <option>MG University</option>
-              <option>Kerala University</option>
-          </select><br /><br />
-   Language Known:
-   Malayalam: <input type="checkbox" value="Malyalam" />
-   English: <input type="checkbox" value="English" />
-   Hindi: <input type="checkbox" value="English" /><br /><br />
-  <input type="submit" value="Register" />
-  </center>
-  </form>
- </body>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body style="width: 40%;margin: auto;background-color:#12435A;color: rgb(245, 243, 243);">
+        <h2><u>REGISTRATION FORM</u></h2>
+        <form action="form.html">
+             <input type="text" placeholder="Your Name" required/><br /><br />
+            GENDER : 
+                Male <input type="radio" value="male" name="gender" />
+                Female <input type="radio" value="female" name="gender" />
+                Other <input type="radio" value="other" name="gender" /><br /><br />
+            DATE OF BIRTH : <input type="date" /><br /><br />
+             <textarea rows="10" cols="60" placeholder="Your Address"></textarea><br /><br />
+             <input type="email" placeholder="Your Email" required/><br /><br />
+             LANGUAGES KNOWN : 
+                  Malayalam : <input type="checkbox" value="malayalam" checked />
+                  English   : <input type="checkbox" value="english" checked />
+                  Hindi     : <input type="checkbox" value="hindi" checked /><br /><br />
+            PROGRAMME : <input type="text" list="programme" />
+                  <datalist id="programme">
+                      <option value="Computer Science" />
+                      <option value="Physics" />
+                      <option value="Chemistry" />
+                      <option value="Mathematics" />
+                      <option value="Statistics" />
+                  </datalist>
+                  <br /><br />
+            UNIVERSITY : 
+                  <select>
+                      <option>Kannur University</option>
+                      <option>Calicut University</option>
+                      <option>MG University</option>
+                      <option>Kerala University</option>
+                  </select><br /><br />
+              <input type="password" placeholder="Password" />
+             <input type="password" placeholder="Confirm Password" /><br /><br />
+            <button type="reset"><i>Clear Me</i></button>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </body>
 </html>
