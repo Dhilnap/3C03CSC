@@ -2,9 +2,13 @@ body{
   width:60%;
   margin:auto
   }
-h1,h2{
+h1{
   height:10px;
+  color:blue;
   }
+h2{
+  color:Red;
+}
 #mainmenu{
   text-align: right;
   background-color:red;
