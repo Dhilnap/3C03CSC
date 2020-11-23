@@ -6,10 +6,6 @@ body{
 h1 td{
    text-align:center;
 }
-h2 td{
-   text-align:center;
-   text-color:Red;
-}
 th{
   background-color:lightblue;
 }
